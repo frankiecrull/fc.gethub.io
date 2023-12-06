@@ -146,9 +146,7 @@ article p, article address {font-family: "Times New Roman", Times, serif;}
 
 
 @media only screen and (min-width: 481px) {
-html, body {
-	font-size: 16px;
-}
+
 
 body {
 	

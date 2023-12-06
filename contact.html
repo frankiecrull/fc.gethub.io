@@ -15,6 +15,8 @@
    <title>Shine Dental</title>
    <link href="css/base.css" rel="stylesheet" />
    <link href="css/layout.css" rel="stylesheet" />
+   <link href="css/sd_tables.css" rel="stylesheet" />
+   <link href="css/sd_form.css" rel="stylesheet" />
   
 </head>
 
@@ -39,15 +41,78 @@
       <img src="images/map.png" class="imgCEN" alt="map" /></a>
 
 
+      <form id="survey" action="http://www.example.com/redbull/survey" method="post">
+         <fieldset id="custInfo">
+            <legend>Let us know how we can help.</legend>
+
+      <div class="formRow">
+            <label for="name">Name</label>
+            <input name="ptName" id="name" type="text" placeholder="first and last name" />
+         </div> 
+         
+         <div class="formRow">
+            <label for="phone">Phone</label>
+            <input name="ptphone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+         </div>
+      
+
+      <div class="formRow">
+            <label for="email">Email</label>
+            <input name="ptEmail" id="mail" type="email" />
+         </div>
+
+      <div class="formRow">
+            <label for="message">Message</label>
+            <input name="ptMes" id="message" type="text" />
+         </div>
+
+         <div id="buttons">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Cancel" />
+         </div>
+         </fieldset>
+      </form>
+
+
+
    
-      </p>
-      <p><strong>Hours</strong> </p>
-      <p>Monday: 8am- 5pm</p>
-      <p>Tuesday: 8am- 5pm</p>
-      <p>Wednesday: 7am- 5pm</p>
-      <p>Thursday: 7am- 5pm</p>
-      <p>Friday: 7am- 1pm</p>
-      <p>Saturday- Sunday: Closed </p>
+      <table class="hours">
+         <tr>
+               <th>Hours</th>
+               <th>Open</th>
+               <th>Closed</th>
+         </tr>
+         <tr>
+               <th>Monday</th>
+                  <td>8am</td>
+                  <td>5pm</td>
+         </tr>
+         </tr>
+       <tr>
+               <th>Tuesday</th>
+                  <td>8am</td>
+                  <td>5pm</td>
+         </tr>
+         <tr>
+            <th>Wednesday</th>
+                  <td>7am</td>
+                  <td>5pm</td>
+         </tr>
+         <tr>
+            <th>Thursday</th>
+                  <td>7am</td>
+                  <td>5pm</td>
+         </tr>
+         <tr>
+            <th>Friday</th>
+            <td>7am</td>
+            <td>5pm</td>
+         </tr>
+         <tr>
+            <th>Saturday-Sunday</th>
+               <td>Closed</td>
+         </tr>
+         </table>
 
       <p> <a href="mailto:shinedental@gmail.com">Email Us</a>   |   <a href="https://facebook.com">Follow us on Facebook</a>    | Call Us: <a href="tel:+14028802415">402-880-2415</a></p>
    </article>

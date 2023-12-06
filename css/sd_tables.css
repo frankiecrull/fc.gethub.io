@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Sample start files for final project - for educational purposes
+   Filename: sd_tables.css
+   
+   Name: Frankie C.
+   Date: 11/13
+
+   This file contains the table styles used by all pages in the website
+
+*/
+
+/* Table Styles */
+table.hours {
+    background-color: white;
+    border: 10px outset darkblue;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+
+/* Table Cell Styles */
+table.hours th, table.hours td {
+    border: 2px solid gray;
+}
